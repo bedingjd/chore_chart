@@ -33,3 +33,6 @@ Others not yet installed:
 - cd into `chore_chart` folder
 - ./run_app.sh 
 - http://192.168.1.234:5000
+
+# Notes
+- New font icons to include in the config.yaml file can be found here: `https://symbolsdb.com/`
