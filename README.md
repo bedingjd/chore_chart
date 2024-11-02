@@ -45,13 +45,22 @@ and the screen will turn upside-down after a reboot: `lcd_rotate=2`
 
 # Notes
 - New font icons to include in the config.yaml file can be found here: `https://symbolsdb.com/`
+- This project uses Flask
+- 
 
 # To-Do
-- [ ] convert dict to yaml: `https://stackoverflow.com/questions/52762525/convert-python-dictionary-to-yaml`
-- [ ] Align the chort chart into a grid with one person per row
+- [x] convert dict to yaml: `https://stackoverflow.com/questions/52762525/convert-python-dictionary-to-yaml`
+- [ ] Align the chort chare into a grid with one person per row
 - [ ] Adjust the header, or remove the header and add a Chore Chart title
-- [ ] Update the `update` button, or allow the entire Card to be a link to update chore status
+- [x] Update the `update` button, or allow the entire Card to be a link to update chore status
 - [ ] Create a way to re-set the chores the next day (or get them ready for the next week). e.g. update status from 'DONE' to "TOTO'
 - [ ] Update the chore status to a python `Enum` or enumeration
 - [ ] Add capability to pay-out monies and adjust bank accounts
 - [ ] Update this `README` to describe how to set-up the chore chart from scratch
+
+- [ ] Update Cards so they change color or otherwise indicate the chore status: TODO, complete, late
+- [ ] Put a guard in place so the chore can only be completed once per day
+- [ ] Add a scheduler so chores can be scheduled on certain days: SuMoTuWeThFrSa
+- [ ] Reformat the display so the Cards are lined up in a grid
+- [ ] Add a filter to display the cards in person_id order, so we can ensure the kids are always in teh same order
+- [ ] Pull the birthday info from people.yaml instead of config
