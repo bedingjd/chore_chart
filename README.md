@@ -1,5 +1,12 @@
 # chore_chart
-simple project to track the kids chores
+simple project to track the kids chores.
+This is based loosely on [DinkyDash](https://github.com/caspii/dinkydash).
+- For example, the images are from the DinkyDash repo
+- Also, the design idea to use YAML for the data in order to permit others to use the project,
+even if they have no programming experience.
+
+>[!WARNING]
+>This is still under development, and not yet working
 
 
 # First Time Set-up
